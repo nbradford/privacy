@@ -3,144 +3,28 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Forte — Support</title>
-<meta name="description" content="Support for Forte, an Apple Music player for audiophiles.">
-<style>
-  :root {
-    color-scheme: light dark;
-    --bg: #f2f2f7;
-    --card: #ffffff;
-    --text: #1c1c1e;
-    --muted: #56565a;
-    --rule: #d8d8dd;
-    --accent: #8a5cf6;
-  }
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --bg: #000000;
-      --card: #131315;
-      --text: #f2f2f7;
-      --muted: #a1a1a8;
-      --rule: #2c2c30;
-      --accent: #b79cff;
-    }
-  }
-  * { box-sizing: border-box; }
-  body {
-    margin: 0;
-    padding: 3rem 1.25rem 5rem;
-    background: var(--bg);
-    color: var(--text);
-    font: 400 17px/1.65 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, system-ui, sans-serif;
-    -webkit-font-smoothing: antialiased;
-  }
-  main { max-width: 44rem; margin: 0 auto; }
-  header { margin-bottom: 3rem; }
-  h1 {
-    font-size: clamp(2rem, 6vw, 2.75rem);
-    line-height: 1.1;
-    letter-spacing: -0.022em;
-    font-weight: 700;
-    margin: 0 0 0.5rem;
-  }
-  .updated { color: var(--muted); font-size: 0.9375rem; margin: 0; }
-  .lede {
-    margin: 2rem 0 0;
-    padding: 1.25rem 1.5rem;
-    background: var(--card);
-    border-radius: 14px;
-    border-left: 3px solid var(--accent);
-    font-size: 1.0625rem;
-  }
-  section { padding: 2rem 0; border-top: 1px solid var(--rule); }
-  section:first-of-type { border-top: none; padding-top: 1rem; }
-  h2 {
-    font-size: 1.1875rem;
-    letter-spacing: -0.01em;
-    font-weight: 650;
-    margin: 0 0 0.75rem;
-  }
-  p { margin: 0 0 1rem; color: var(--muted); }
-  p:last-child { margin-bottom: 0; }
-  ul { margin: 0 0 1rem; padding-left: 1.25rem; color: var(--muted); }
-  li { margin-bottom: 0.5rem; }
-  li:last-child { margin-bottom: 0; }
-  a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 2px; }
-  footer {
-    margin-top: 3rem;
-    padding-top: 1.5rem;
-    border-top: 1px solid var(--rule);
-    color: var(--muted);
-    font-size: 0.9375rem;
-  }
-</style>
+<title>Apps — Support &amp; Privacy</title>
+<meta name="description" content="Support pages and privacy policies for each app.">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <main>
   <header>
-    <h1>Forte Support</h1>
-    <p class="updated">An Apple Music player for audiophiles</p>
-    <p class="lede">
-      Something not working, or not behaving the way you expected? Email
-      <a href="mailto:stratum.cutout-6q@icloud.com">stratum.cutout-6q@icloud.com</a>
-      and you'll get a reply from the person who wrote the app.
-    </p>
+    <h1>Support &amp; Privacy</h1>
+    <p class="updated">Support pages and privacy policies for each app</p>
   </header>
 
-  <section>
-    <h2>What Forte needs</h2>
-    <p>
-      Forte plays your Apple Music library, so it needs an active Apple Music subscription and
-      permission to read your library. You'll be asked for that permission the first time you open
-      the app. If the library looks empty, check that Forte has access under
-      Settings › Forte › Media &amp; Apple Music.
-    </p>
+  <section class="forte">
+    <h2>Forte</h2>
+    <p>An Apple Music player for audiophiles.</p>
+    <p><a href="forte/">Support</a> · <a href="forte/privacy.html">Privacy Policy</a></p>
   </section>
 
-  <section>
-    <h2>Your own audio files</h2>
-    <p>
-      Forte also plays files you add yourself, in FLAC, ALAC, WAV, MP3, and AAC. Add them through
-      the Files app, under On My iPhone › Forte, and they'll appear alongside the rest of your
-      library after the next scan.
-    </p>
+  <section class="typerighter">
+    <h2>Typerighter</h2>
+    <p>A keyboard with no predictions, no learning, and no AI.</p>
+    <p><a href="typerighter/">Support</a> · <a href="typerighter/privacy.html">Privacy Policy</a></p>
   </section>
-
-  <section>
-    <h2>Reporting a problem</h2>
-    <p>
-      The more specific the report, the faster it gets fixed. Useful things to include:
-    </p>
-    <ul>
-      <li>What you did, and what happened instead of what you expected.</li>
-      <li>Whether the track was streaming from Apple Music or one of your own files.</li>
-      <li>Your iOS version and iPhone model.</li>
-      <li>The version of Forte, shown at the bottom of Settings.</li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>Requesting a feature</h2>
-    <p>
-      Requests are welcome. Worth knowing what Forte is deliberately not: it has no recommendation
-      engine, no algorithmic suggestions, and no social feed. It's built for people who already know
-      what they want to hear. Anything that helps you get to your own music faster, or tells you
-      more about what you're hearing, is fair game.
-    </p>
-  </section>
-
-  <section>
-    <h2>Privacy</h2>
-    <p>
-      Forte has no account, no analytics, and no tracking. The full
-      <a href="privacy.html">privacy policy</a> explains what stays on your device and the two
-      public services the app can optionally ask for credits and biographies.
-    </p>
-  </section>
-
-  <footer>
-    Forte · <a href="privacy.html">Privacy Policy</a>
-  </footer>
 </main>
 </body>
 </html>
